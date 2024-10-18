@@ -19,11 +19,11 @@ export default function NewVersionDialog({
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>New Version Coming Soon</DialogTitle>
+          <DialogTitle>Welcome</DialogTitle>
         </DialogHeader>
         <DialogDescription>
-          Version 1 of FormBuilder is on its way! Stay tuned for exciting
-          new features and improvements.
+        Form Builder a UI based codegen tool to easily create @shadcn/ui forms.
+        <i>Please note This website is best viewed on desktop</i>
         </DialogDescription>
         <DialogFooter>
           <Button onClick={() => setOpen(false)}>Okay</Button>
